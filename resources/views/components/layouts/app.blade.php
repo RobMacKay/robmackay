@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"></noscript>
         <title>{{ $title ?? 'Rob Mackay - Full Stack Web Developer' }}</title>
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
