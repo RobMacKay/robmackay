@@ -3,7 +3,6 @@
         <nav class="space-x-8">
             <a href="/" class="hover:text-slate-700" wire:navigate>Home</a>
             <a href="/about" class="hover:text-slate-700"  wire:navigate>About</a>
-            <a href="https://rscmedia.co.uk/articles" class="hover:text-slate-700">Blog</a>
         </nav>
         <nav class="space-x-4 flex">
             <a href="mailto:info@rscmedia.co.uk" alt="Mail Me">
